@@ -1,16 +1,49 @@
-# React + Vite
+# S/4HANA Migration Command Center (MVP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém o código-fonte de um painel de controle executivo (Dashboard) focado na gestão de migrações SAP S/4HANA.
 
-Currently, two official plugins are available:
+O projeto é uma **Proof of Concept (PoC)** para demonstrar a aceleração do desenvolvimento de software utilizando Inteligência Artificial Generativa como "braço de execução".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo do Projeto
+Demonstrar como um Arquiteto de Soluções pode utilizar assistentes de codificação (neste caso, Claude Code) para sair da concepção arquitetural e chegar a um MVP funcional de *front-end* moderno, superando a curva de aprendizado de novas stacks (React/Vite) em tempo recorde.
 
-## React Compiler
+## 🚀 Tech Stack
+* **Core:** React (v18+)
+* **Build Tool:** Vite
+* **Estilização:** Tailwind CSS
+* **Visualização de Dados:** Recharts
+* **Ícones:** Lucide React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Funcionalidades (MVP)
+* **Dashboard Executivo:** Visão geral de status de migração (Wave planning, Cutover status).
+* **Data Visualization:** Gráficos interativos para monitoramento de objetos de migração e qualidade de dados.
+* **UI Responsiva:** Layout moderno adaptado para desktop e mobile.
+* **Mock Data:** Estrutura de dados simulada para representação de cenários reais de S/4HANA.
 
-## Expanding the ESLint configuration
+## 🛠️ Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/feliponi/migration-war-room
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    cd migration-war-room
+    npm install
+    ```
+
+3.  **Rode o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+4.  O projeto estará rodando em `http://localhost:5173` (ou porta similar indicada no terminal).
+
+## 📝 Nota do Autor
+Todo o código "boilerplate", a configuração do Vite e a lógica dos componentes React foram gerados através de prompts de arquitetura e refinamento via IA. O foco humano (meu papel) foi na definição de requisitos de negócio, validação da UX e integridade da lógica de migração SAP.
+
+---
+**Luiz [Sobrenome]**
+*Senior Technical Executive & Solution Architect*
+[Link para seu LinkedIn]
